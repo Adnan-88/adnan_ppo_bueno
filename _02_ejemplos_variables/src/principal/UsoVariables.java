@@ -12,12 +12,12 @@ public class UsoVariables {
 		System.out.println(myvar);
 		
 		int n; //las variables locales no tienen valor por defecto
-		System.out.println(n);
+		System.out.println("n");
 	
 
 	}
 	
 	public void m1 () {
-		global=i;
+		String global = "i";
 	}
 }
