@@ -10,6 +10,7 @@ public class Edades {
 		// y después muestra la media de edad
 		int[] edades=new int[5];
 		Scanner sc=new Scanner(System.in);
+		int media=0;
 		//leamos las cinco edades
 		for(int i=0;i<edades.length;i++)  {
 			media=media+edades[i];
