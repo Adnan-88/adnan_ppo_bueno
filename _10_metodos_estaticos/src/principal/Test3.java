@@ -15,7 +15,9 @@ public class Test3 {
 
 }
 
-List<Integer> nums=List.of(3,8,2,11,4,9);
-ManipulacionService service=new ManipulacionService();
-System.out.println("Suma de los pares: "+service.sumaPares(nums));
+//List<Integer> nums=List.of(3,8,2,11,4,9);
+//ManipulacionService service=new ManipulacionService();
+//System.out.println("Suma de los pares: "+service.sumaPares(nums));
+
+
 
