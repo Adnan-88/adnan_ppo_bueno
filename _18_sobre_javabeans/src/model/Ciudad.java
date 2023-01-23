@@ -22,7 +22,6 @@ public class Ciudad {
 	}
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return nombre + ":" + pais;
 	}
 	

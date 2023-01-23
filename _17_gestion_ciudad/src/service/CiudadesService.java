@@ -83,5 +83,15 @@ public class CiudadesService {
 				
 	}
 	
+	//devuelve el total de habitantes de un determinado pais
+	public int habitantesPais(String pais) {
+		return ciudades.stream()
+				.filter(c->c.getPais().equals(pais)) //Stream<Ciudad>
+				.collect(Collectors.summingInt(c->c.getHabitantes()));
+				
+				
+				
+	}
+	
 
 }
